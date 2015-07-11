@@ -1958,10 +1958,10 @@ meta.foundation-mq-topbar {
       color: #FFFFFF;
       background: #222222; }
     .top-bar-section ul li.active > a {
-      background: #2ba6cb;
+      background: #FFB600;
       color: #FFFFFF; }
       .top-bar-section ul li.active > a:hover {
-        background: #258faf;
+        background: #FFB600;
         color: #FFFFFF; }
   .top-bar-section .has-form {
     padding: 0.9375rem; }
@@ -2097,7 +2097,7 @@ meta.foundation-mq-topbar {
         background-color: #555555;
         background: #222222; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
-      background: #2ba6cb;
+      background: #FFB600;
       color: #FFFFFF;
       line-height: 2.8125rem;
       padding: 0 0.9375rem; }
@@ -2198,7 +2198,7 @@ meta.foundation-mq-topbar {
     background: #222222;
     color: #FFFFFF; }
   .no-js .top-bar-section ul li:active > a {
-    background: #2ba6cb;
+    background: #FFB600;
     color: #FFFFFF; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     position: static !important;
@@ -2221,6 +2221,7 @@ meta.foundation-mq-topbar {
   border-style: solid;
   border-width: 1px;
   border-color: #d8d8d8;
+  margin-top: .25rem;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
   background: #f2f2f2;
@@ -2234,6 +2235,9 @@ meta.foundation-mq-topbar {
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
     margin-bottom: 0.625rem; }
+  .panel li {
+    list-style-type: none;
+  }
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
       line-height: 1.4; }
   .panel.callout {
@@ -3081,3 +3085,9 @@ blockquote p {
   background: #2ba6cb; }
   .range-slider-handle:hover {
     background: #2692b3; }
+    
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

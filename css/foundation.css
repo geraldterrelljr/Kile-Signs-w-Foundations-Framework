@@ -3094,6 +3094,8 @@ blockquote p {
 .above-slider p {
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
+    color: #ffffff;
     float: none; }
     
 .above-slider .serving {
@@ -3102,3 +3104,13 @@ blockquote p {
     margin-left: auto;
     margin-right: auto;
     float: none; }
+    
+.phone {
+  text-align: right; }
+  
+.email {
+  text-align: right; }
+  
+#serving {
+  font-size: .50em;
+  font-style: italic; }

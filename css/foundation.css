@@ -3114,3 +3114,21 @@ blockquote p {
 #serving {
   font-size: .50em;
   font-style: italic; }
+
+.directions {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Google Maps - Responsive Code */
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%; } 
+  
+.embed-container iframe, .embed-container object, .embed-container embed { 
+  position: absolute; 
+  width: 100%; 
+  height: 100%; }

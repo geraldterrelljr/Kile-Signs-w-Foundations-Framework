@@ -2277,7 +2277,7 @@ meta.foundation-mq-topbar {
 
 .text-justify {
   text-align: justify !important; }
-
+    
 @media only screen and (max-width: 40em) {
   .small-only-text-left {
     text-align: left !important; }
@@ -2289,7 +2289,11 @@ meta.foundation-mq-topbar {
     text-align: center !important; }
 
   .small-only-text-justify {
-    text-align: justify !important; } }
+    text-align: justify !important; } 
+    
+  .hide-for-small-only {
+    display: none !important; } }
+    
 @media only screen {
   .small-text-left {
     text-align: left !important; }
@@ -2302,6 +2306,7 @@ meta.foundation-mq-topbar {
 
   .small-text-justify {
     text-align: justify !important; } }
+  
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   .medium-only-text-left {
     text-align: left !important; }

@@ -1760,7 +1760,7 @@ meta.foundation-mq-topbar {
     font-size: 16px;
     height: 2.8125rem;
     margin: 0; }
-    .top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
+    .top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, {
       font-size: 2rem;
       line-height: 2.8125rem;
       margin: 0; }
@@ -3103,13 +3103,6 @@ blockquote p {
     color: #ffffff;
     float: none; }
     
-.above-slider .serving {
-    font-weight: bold;
-    font-style: italic;
-    margin-left: auto;
-    margin-right: auto;
-    float: none; }
-    
 .phone {
   text-align: right; }
   
@@ -3117,13 +3110,12 @@ blockquote p {
   text-align: right; }
   
 .serving {
-  width: 100px;
+  font-size: 1.125rem;
   font-style: italic; }
 
 .directions {
   padding-top: 30px;
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px;}
 
 /* Google Maps - Responsive Code */
 .embed-container { 
@@ -3137,3 +3129,6 @@ blockquote p {
   position: absolute; 
   width: 100%; 
   height: 100%; }
+  
+.wrap {
+  padding: 25px 0px; }
